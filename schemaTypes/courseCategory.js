@@ -34,15 +34,10 @@ export default {
     {
       name: 'materials',
       title: 'Materiais Didáticos',
-      type: 'array',
-      of: [
-        {
-          type: 'image',
-          options: {
-            hotspot: true,
-          },
-        },
-      ],
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
       description: 'Imagens dos livros ou materiais didáticos',
     },
   ],
