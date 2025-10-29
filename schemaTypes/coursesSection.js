@@ -25,15 +25,6 @@ export default {
       validation: Rule => Rule.required().min(3),
       description: 'Adicione pelo menos 3 categorias (Kids, Teens, Adults)',
     },
-    {
-      name: 'backgroundPattern',
-      title: 'Padrão de Fundo (opcional)',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-      description: 'Imagem de padrão ou textura de fundo',
-    },
   ],
   preview: {
     prepare() {

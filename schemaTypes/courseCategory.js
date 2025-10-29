@@ -31,6 +31,20 @@ export default {
       },
       validation: Rule => Rule.required(),
     },
+    {
+      name: 'materials',
+      title: 'Materiais Didáticos',
+      type: 'array',
+      of: [
+        {
+          type: 'image',
+          options: {
+            hotspot: true,
+          },
+        },
+      ],
+      description: 'Imagens dos livros ou materiais didáticos',
+    },
   ],
   preview: {
     select: {
